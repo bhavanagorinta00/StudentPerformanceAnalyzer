@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Performance Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎓 Student Performance Analyzer</h1>
+
+    <div class="card">
+
+        <input type="text" id="name" placeholder="Student Name">
+
+        <input type="number" id="m1" placeholder="Subject 1 Marks">
+
+        <input type="number" id="m2" placeholder="Subject 2 Marks">
+
+        <input type="number" id="m3" placeholder="Subject 3 Marks">
+
+        <button onclick="addStudent()">
+            Add Student
+        </button>
+
+    </div>
+
+    <button onclick="showReport()">
+        Generate Report
+    </button>
+
+    <div id="report"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
